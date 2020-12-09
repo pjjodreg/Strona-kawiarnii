@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: arial;
+        }
+
+        body {
+            background-color: BurlyWood;
+        }
+
+        menu {
+            background-color: white;
+            height: 100px;
+            width: 100%;
+            font-size: 0;
+            position: relative;
+        }
+
+        span {
+            position: absolute;
+            text-align: center;
+            font-size: 40px;
+            top: calc(100px - 70px);
+        }
+
+        .logo {
+            height: 100px;
+            width: 100px;
+        }
+
+        header {
+            background-image: url(https://cdn.pixabay.com/photo/2019/07/13/11/44/coffee-4334647_960_720.jpg);
+            width: 100%;
+            height: 90vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+        header h1 {
+
+            letter-spacing: 2px;
+            font-size: 70px;
+            font-weight: bold;
+            margin-top: 6vh;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            background: black;
+        }
+
+        .know {
+            letter-spacing: 1px;
+            font-size: 25px;
+            background-color: transparent;
+            border: 4px darksalmon solid;
+            color: black;
+            padding: 10px 32px;
+            transition: .3s linear;
+            font-family: sans-serif;
+            font-weight: bold;
+            float: right;
+            margin: 20px 20px;
+            cursor: pointer;
+        }
+
+        .bruh {
+            border: 0px solid black;
+            padding: 15px 20px;
+        }
+
+        main {
+            background-image: url(https://cdn.pixabay.com/photo/2017/07/26/21/14/spilled-coffee-2543133_960_720.jpg);
+            text-align: center;
+            background-size: cover;
+            position: relative;
+            width: 100%;
+            height: 70vh;
+        }
+
+        .wrapper {
+            justify-content: center;
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+            height: 100%;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        img {
+            height: 300px;
+            width: 400px;
+        }
+
+        .one {
+            background-color: white;
+            width: 400px;
+            height: 55%;
+        }
+
+        .two {
+            background-color: white;
+            width: 400px;
+            height: 55%;
+            margin: 0 50px;
+        }
+
+        .three {
+            background-color: white;
+            width: 400px;
+            height: 55%;
+        }
+
+        main h1 {
+            color: #fff;
+            font-size: 90px;
+            font-family: 'Lobster', cursive;
+            margin-bottom: 50px;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        section {
+            height: 92vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wrappertwo {
+            width: 75%;
+            height: 85vh;
+            text-align: center;
+            background-image: url(https://cdn.pixabay.com/photo/2020/06/21/15/57/cup-of-coffee-5325621_960_720.jpg);
+            background-size: cover;
+
+        }
+
+        footer {
+            width: 100%;
+            height: 8vh;
+            background-color: #999;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .motto {
+            color: whitesmoke;
+            font-family: Lobster;
+            font-size: 75px;
+        }
+
+        .by {
+            color: whitesmoke;
+            font-family: Lobster;
+            font-size: 50px;
+        }
+
+        footer div {
+            font-family: arial, sans-serif;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <menu>
+        <img class="logo"
+            src="https://png.pngtree.com/template/20190323/ourlarge/pngtree-coffee-logo-design-image_82183.jpg" alt="">
+        <span>Kawa masterzy</span>
+        <button class="know">Kontakt</button>
+        <button class="know bruh">O nas</button>
+
+    </menu>
+    <header>
+        <h1>Profesjonalna kawiarnia kawowa</h1>
+
+
+    </header>
+    <main>
+        <h1>Our services</h1>
+        <div class="wrapper clearfix">
+
+
+            <div class="one">
+                <img src="https://cdn.pixabay.com/photo/2016/04/01/11/04/coffee-1300181_960_720.jpg" alt="">
+                <h2>Wysokoka jakość</h2>
+                <p>Oj tak tak</p>
+            </div>
+            <div class="two">
+                <img src="https://cdn.pixabay.com/photo/2020/06/21/15/55/cup-of-coffee-5325613_960_720.jpg" alt="">
+                <h2>Szybka produkcja</h2>
+                <p>Bardzo szybka</p>
+            </div>
+            <div class="three">
+                <img src="https://cdn.pixabay.com/photo/2019/07/28/05/19/sweets-4367949_960_720.jpg" alt="">
+                <h2>Ciasteczka</h2>
+                <p>Pyszne!!</p>
+
+            </div>
+
+        </div>
+    </main>
+    <section>
+        <div class="wrappertwo">
+            <p class="motto">"Kawa pobudza nasze zmysły"</p>
+            <p class="by"> -Mądry człowiek</p>
+
+        </div>
+    </section>
+    <footer>
+        <div>Piotrek Dworczyk &copy;</div>
+    </footer>
+
+</body>
+
+</html>
